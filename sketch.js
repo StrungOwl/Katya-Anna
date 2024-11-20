@@ -1,3 +1,20 @@
+// // Check if the URL has ?fullscreen=true
+// const urlParams = new URLSearchParams(window.location.search);
+// if (urlParams.has('fullscreen')) {
+//     enterFullScreen();
+// }
+
+// function enterFullScreen() {
+//     if (document.documentElement.requestFullscreen) {
+//         document.documentElement.requestFullscreen();
+//     } else if (document.documentElement.webkitRequestFullscreen) { // Safari
+//         document.documentElement.webkitRequestFullscreen();
+//     } else if (document.documentElement.msRequestFullscreen) { // IE/Edge
+//         document.documentElement.msRequestFullscreen();
+//     }
+// }
+
+
 let ratio = 1.6;
 let globeScale;
 
